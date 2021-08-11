@@ -1,0 +1,25 @@
+{
+  "name": "black-white",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "node": "^16.6.0",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "css": "node-sass assets/styles/scss/main.scss -o assets/styles/css",
+    "css:watch": "npm run css && node-sass --output-style compressed assets/styles/scss/main.scss -wo assets/styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farahaskerova/black-white.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farahaskerova/black-white/issues"
+  },
+  "homepage": "https://github.com/farahaskerova/black-white#readme"
+}
